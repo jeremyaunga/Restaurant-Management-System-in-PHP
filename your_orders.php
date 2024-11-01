@@ -218,7 +218,7 @@ only screen and (max-width: 760px),
 							
 							  <th>Item</th>
 							  <th>Quantity</th>
-							  <th>Price</th>
+							  <th>Price Per Item</th>
 							   <th>Status</th>
 							     <th>Date</th>
 								   <th>Action</th>
@@ -245,7 +245,7 @@ only screen and (max-width: 760px),
 												<tr>	
 														 <td data-column="Item"> <?php echo $row['title']; ?></td>
 														  <td data-column="Quantity"> <?php echo $row['quantity']; ?></td>
-														  <td data-column="price">₹<?php echo $row['price']; ?></td>
+														  <td data-column="price">KSH <?php echo $row['price']; ?></td>
 														   <td data-column="status"> 
 														   <?php 
 																			$status=$row['status'];
@@ -341,11 +341,11 @@ only screen and (max-width: 760px),
                                 </div>
                                 <div class="col-xs-12 col-sm-4 address color-gray">
                                     <h5>Address</h5>
-                                    <p>213, Raheja Chambers, Free Press Journal Road, Nariman Point, Mumbai, Maharashtra 400021, India</p>
-                                    <h5>Phone: +91 8093424562</a></h5> </div>
+                                    <p>213, Utalii Chambers, Thika Road, next to administration police, Nairobi, Nairobi 4000213, Kenya</p>
+                                    <h5>Phone: +254 799844480</a></h5> </div>
                                 <div class="col-xs-12 col-sm-5 additional-info color-gray">
                                     <h5>Addition informations</h5>
-                                   <p>Join thousands of other restaurants who benefit from having partnered with us.</p>
+                                   <p>Join thousands of our customers who benefit from having partnered with us.</p>
                                 </div>
                             </div>
                         </div>

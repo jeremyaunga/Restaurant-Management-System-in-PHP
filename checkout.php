@@ -140,7 +140,7 @@ else{
 											   
                                                     <tr>
                                                         <td>Cart Subtotal</td>
-                                                        <td> <?php echo "₹".$item_total; ?></td>
+                                                        <td> <?php echo "KSH ".$item_total; ?></td>
                                                     </tr>
                                                     <tr>
                                                         <td>Delivery Charges</td>
@@ -148,7 +148,7 @@ else{
                                                     </tr>
                                                     <tr>
                                                         <td class="text-color"><strong>Total</strong></td>
-                                                        <td class="text-color"><strong> <?php echo "₹".$item_total; ?></strong></td>
+                                                        <td class="text-color"><strong> <?php echo "KSH ".$item_total; ?></strong></td>
                                                     </tr>
                                                 </tbody>
 												
@@ -207,11 +207,11 @@ else{
                                 </div>
                                 <div class="col-xs-12 col-sm-4 address color-gray">
                                     <h5>Address</h5>
-                                    <p>213, Raheja Chambers, Free Press Journal Road, Nariman Point, Mumbai, Maharashtra 400021, India</p>
-                                    <h5>Phone: +91 8093424562</a></h5> </div>
+                                    <p>213, Utalii Chambers, Thika Road, next to administration police, Nairobi, Nairobi 4000213, Kenya</p>
+                                    <h5>Phone: +254 799844480</a></h5> </div>
                                 <div class="col-xs-12 col-sm-5 additional-info color-gray">
                                     <h5>Addition informations</h5>
-                                   <p>Join thousands of other restaurants who benefit from having partnered with us.</p>
+                                   <p>Join thousands of our customers who benefit from having partnered with us.</p>
                                 </div>
                             </div>
                         </div>

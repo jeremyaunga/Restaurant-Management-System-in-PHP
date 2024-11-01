@@ -168,7 +168,7 @@ session_start();
 																					           <td>'.$rows['username'].'</td>
 																								<td>'.$rows['title'].'</td>
 																								<td>'.$rows['quantity'].'</td>
-																								<td>₹'.$rows['price'].'</td>
+																								<td>KSH '.$rows['price'].'</td>
 																								<td>'.$rows['address'].'</td>';
 																								?>
 																								<?php 
@@ -234,7 +234,7 @@ session_start();
             </div>
  
 		
-            <footer class="footer"> © 2021 All rights reserved.</footer>
+            <footer class="footer"> © 2024 All rights reserved. WHALE CODER</footer>
     
         </div>
    
