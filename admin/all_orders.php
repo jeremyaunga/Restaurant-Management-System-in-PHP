@@ -168,7 +168,11 @@ session_start();
 																					           <td>'.$rows['username'].'</td>
 																								<td>'.$rows['title'].'</td>
 																								<td>'.$rows['quantity'].'</td>
+<<<<<<< HEAD
 																								<td>KSH '.$rows['price'].'</td>
+=======
+																								<td>₹'.$rows['price'].'</td>
+>>>>>>> 829e0a04220a2fedf53680041abee23e4dbdde00
 																								<td>'.$rows['address'].'</td>';
 																								?>
 																								<?php 
@@ -234,7 +238,11 @@ session_start();
             </div>
  
 		
+<<<<<<< HEAD
             <footer class="footer"> © 2024 All rights reserved. WHALE CODER</footer>
+=======
+            <footer class="footer"> © 2021 All rights reserved.</footer>
+>>>>>>> 829e0a04220a2fedf53680041abee23e4dbdde00
     
         </div>
    

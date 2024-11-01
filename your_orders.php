@@ -218,7 +218,11 @@ only screen and (max-width: 760px),
 							
 							  <th>Item</th>
 							  <th>Quantity</th>
+<<<<<<< HEAD
 							  <th>Price Per Item</th>
+=======
+							  <th>Price</th>
+>>>>>>> 829e0a04220a2fedf53680041abee23e4dbdde00
 							   <th>Status</th>
 							     <th>Date</th>
 								   <th>Action</th>
@@ -245,7 +249,11 @@ only screen and (max-width: 760px),
 												<tr>	
 														 <td data-column="Item"> <?php echo $row['title']; ?></td>
 														  <td data-column="Quantity"> <?php echo $row['quantity']; ?></td>
+<<<<<<< HEAD
 														  <td data-column="price">KSH <?php echo $row['price']; ?></td>
+=======
+														  <td data-column="price">₹<?php echo $row['price']; ?></td>
+>>>>>>> 829e0a04220a2fedf53680041abee23e4dbdde00
 														   <td data-column="status"> 
 														   <?php 
 																			$status=$row['status'];

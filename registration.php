@@ -211,11 +211,19 @@ if(isset($_POST['submit'] ))
                            </div>
                            <div class="col-xs-12 col-sm-4 address color-gray">
                                     <h5>Address</h5>
+<<<<<<< HEAD
                                     <p>213, Utalii Chambers, Thika Road, next to administration police, Nairobi, Nairobi 4000213, Kenya</p>
                                     <h5>Phone: +254 799844480</a></h5> </div>
                                 <div class="col-xs-12 col-sm-5 additional-info color-gray">
                                     <h5>Addition informations</h5>
                                    <p>Join thousands of our customers who benefit from having partnered with us.</p>
+=======
+                                    <p>201, utarii Chambers, Thika Road, Utalii, Nairobi, Nairobi 400021, Kenya</p>
+                                    <h5>Phone: +254 799844480</a></h5> </div>
+                                <div class="col-xs-12 col-sm-5 additional-info color-gray">
+                                    <h5>Addition informations</h5>
+                                   <p>Join thousands of other restaurants who benefit from having partnered with us.</p>
+>>>>>>> 829e0a04220a2fedf53680041abee23e4dbdde00
                                 </div>
                         </div>
                      </div>
