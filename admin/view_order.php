@@ -181,11 +181,7 @@ popUpWin = open(URLStr,'popUpWin', 'toolbar=no,location=no,directories=no,status
 											</tr>
 											<tr>
 													<td><strong>Price:</strong></td>
-<<<<<<< HEAD
 												    <td><center>KSH <?php echo $rows['price']; ?></center></td>
-=======
-												    <td><center>₹<?php echo $rows['price']; ?></center></td>
->>>>>>> 829e0a04220a2fedf53680041abee23e4dbdde00
 													   
 												   																							
 											</tr>
@@ -213,11 +209,7 @@ popUpWin = open(URLStr,'popUpWin', 'toolbar=no,location=no,directories=no,status
 																			  }
 																			   if($status=="in process")
 																			 { ?>
-<<<<<<< HEAD
-																			<td>   <center><button type="button" class="btn btn-warning"><span class="fa fa-cog fa-spin"  aria-hidden="true" ></span>On the Way!</button></center></td> 
-=======
 																			<td>   <center><button type="button" class="btn btn-warning"><span class="fa fa-cog fa-spin"  aria-hidden="true" ></span>On a Way!</button></center></td> 
->>>>>>> 829e0a04220a2fedf53680041abee23e4dbdde00
 																			<?php
 																				}
 																			if($status=="closed")

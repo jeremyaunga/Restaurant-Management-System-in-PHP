@@ -132,11 +132,7 @@ foreach ($_SESSION["cart_item"] as $item)
 										
                                         <div class="form-group row no-gutter">
                                             <div class="col-xs-8">
-<<<<<<< HEAD
                                                  <input type="text" class="form-control b-r-0" value=<?php echo "NO: ".$item["price"]; ?> readonly id="exampleSelect1">
-=======
-                                                 <input type="text" class="form-control b-r-0" value=<?php echo "₹".$item["price"]; ?> readonly id="exampleSelect1">
->>>>>>> 829e0a04220a2fedf53680041abee23e4dbdde00
                                                    
                                             </div>
                                             <div class="col-xs-4">
@@ -159,11 +155,7 @@ $item_total += ($item["price"]*$item["quantity"]);
                                 <div class="widget-body">
                                     <div class="price-wrap text-xs-center">
                                         <p>TOTAL</p>
-<<<<<<< HEAD
                                         <h3 class="value"><strong><?php echo "KSH ".$item_total; ?></strong></h3>
-=======
-                                        <h3 class="value"><strong><?php echo "₹".$item_total; ?></strong></h3>
->>>>>>> 829e0a04220a2fedf53680041abee23e4dbdde00
                                         <p>Free Delivery!!!</p>
                                         <?php
                                         if($item_total==0){
@@ -232,11 +224,7 @@ $item_total += ($item["price"]*$item["quantity"]);
                                         </div>
                                
                                         <div class="col-xs-12 col-sm-12 col-lg-4 pull-right item-cart-info"> 
-<<<<<<< HEAD
 										<span class="price pull-left" >KSH <?php echo $product['price']; ?></span>
-=======
-										<span class="price pull-left" >₹<?php echo $product['price']; ?></span>
->>>>>>> 829e0a04220a2fedf53680041abee23e4dbdde00
 										  <input class="b-r-0" type="text" name="quantity"  style="margin-left:30px;" value="1" size="2" />
 										  <input type="submit" class="btn theme-btn" style="margin-left:40px;" value="Add to cart" />
 										</div>
@@ -280,19 +268,6 @@ $item_total += ($item["price"]*$item["quantity"]);
                                         <li>
                                             <a href="#"> <img src="images/mastercard.png" alt="Mastercard"> </a>
                                         </li>
-<<<<<<< HEAD
-
-=======
-                                        <li>
-                                            <a href="#"> <img src="images/maestro.png" alt="Maestro"> </a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> <img src="images/stripe.png" alt="Stripe"> </a>
-                                        </li>
-                                        <li>
-                                            <a href="#"> <img src="images/bitcoin.png" alt="Bitcoin"> </a>
-                                        </li>
->>>>>>> 829e0a04220a2fedf53680041abee23e4dbdde00
                                     </ul>
                                 </div>
                                 <div class="col-xs-12 col-sm-4 address color-gray">
@@ -332,11 +307,7 @@ $item_total += ($item["price"]*$item["quantity"]);
                
                             </div>
            
-<<<<<<< HEAD
                             <div class="col-xs-6 col-sm-2 col-lg-2 text-xs-center"> <span class="price pull-left">KSH 2099</span></div>
-=======
-                            <div class="col-xs-6 col-sm-2 col-lg-2 text-xs-center"> <span class="price pull-left">₹ 2.99</span></div>
->>>>>>> 829e0a04220a2fedf53680041abee23e4dbdde00
                             <div class="col-xs-6 col-sm-4 col-lg-4">
                                 <div class="row no-gutter">
                                     <div class="col-xs-7">
@@ -366,11 +337,7 @@ $item_total += ($item["price"]*$item["quantity"]);
                 
                             </div>
                
-<<<<<<< HEAD
                             <div class="col-xs-6 col-sm-2 col-lg-2 text-xs-center"> <span class="price pull-left">KSH 2049</span></div>
-=======
-                            <div class="col-xs-6 col-sm-2 col-lg-2 text-xs-center"> <span class="price pull-left">₹ 2.49</span></div>
->>>>>>> 829e0a04220a2fedf53680041abee23e4dbdde00
                             <div class="col-xs-6 col-sm-4 col-lg-4">
                                 <div class="row no-gutter">
                                     <div class="col-xs-7">
@@ -400,11 +367,7 @@ $item_total += ($item["price"]*$item["quantity"]);
                  
                             </div>
                 
-<<<<<<< HEAD
                             <div class="col-xs-6 col-sm-2 col-lg-2 text-xs-center"> <span class="price pull-left">KSH 1099</span></div>
-=======
-                            <div class="col-xs-6 col-sm-2 col-lg-2 text-xs-center"> <span class="price pull-left">₹ 1.99</span></div>
->>>>>>> 829e0a04220a2fedf53680041abee23e4dbdde00
                             <div class="col-xs-6 col-sm-4 col-lg-4">
                                 <div class="row no-gutter">
                                     <div class="col-xs-7">
@@ -434,11 +397,7 @@ $item_total += ($item["price"]*$item["quantity"]);
                       
                             </div>
                        
-<<<<<<< HEAD
                             <div class="col-xs-6 col-sm-2 col-lg-2 text-xs-center"> <span class="price pull-left">KSH 3015</span></div>
-=======
-                            <div class="col-xs-6 col-sm-2 col-lg-2 text-xs-center"> <span class="price pull-left">₹ 3.15</span></div>
->>>>>>> 829e0a04220a2fedf53680041abee23e4dbdde00
                             <div class="col-xs-6 col-sm-4 col-lg-4">
                                 <div class="row no-gutter">
                                     <div class="col-xs-7">

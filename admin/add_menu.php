@@ -258,11 +258,7 @@ if(isset($_POST['submit']))
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                     <label class="control-label">Price </label>
-<<<<<<< HEAD
                                                     <input type="text" name="price" class="form-control" placeholder="KSH">
-=======
-                                                    <input type="text" name="price" class="form-control" placeholder="₹">
->>>>>>> 829e0a04220a2fedf53680041abee23e4dbdde00
                                                    </div>
                                             </div>
                                    

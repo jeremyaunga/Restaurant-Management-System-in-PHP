@@ -310,8 +310,7 @@ if(isset($_POST['submit']))
                                                         <option value="3am">3am</option>
                                                     </select>
                                                 </div>
-                                            </div>
-											
+                                            </div>											
 											 <div class="col-md-6">
                                                 <div class="form-group">
                                                     <label class="control-label">Open Days</label>
@@ -381,7 +380,7 @@ if(isset($_POST['submit']))
                             </div>
                         </div>
                     </div>
-					<footer class="footer"> © 2021 All rights reserved. </footer>
+					<footer class="footer"> © 2024 All rights reserved. @whalesTech </footer>
                 </div>
                 
             </div>

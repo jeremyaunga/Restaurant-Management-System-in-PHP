@@ -140,11 +140,7 @@ else{
 											   
                                                     <tr>
                                                         <td>Cart Subtotal</td>
-<<<<<<< HEAD
                                                         <td> <?php echo "KSH ".$item_total; ?></td>
-=======
-                                                        <td> <?php echo "₹".$item_total; ?></td>
->>>>>>> 829e0a04220a2fedf53680041abee23e4dbdde00
                                                     </tr>
                                                     <tr>
                                                         <td>Delivery Charges</td>
@@ -152,11 +148,7 @@ else{
                                                     </tr>
                                                     <tr>
                                                         <td class="text-color"><strong>Total</strong></td>
-<<<<<<< HEAD
                                                         <td class="text-color"><strong> <?php echo "KSH ".$item_total; ?></strong></td>
-=======
-                                                        <td class="text-color"><strong> <?php echo "₹".$item_total; ?></strong></td>
->>>>>>> 829e0a04220a2fedf53680041abee23e4dbdde00
                                                     </tr>
                                                 </tbody>
 												

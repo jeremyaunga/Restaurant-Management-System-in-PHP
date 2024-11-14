@@ -171,13 +171,7 @@ session_start();
 																					
 																								<td>'.$rows['title'].'</td>
 																								<td>'.$rows['slogan'].'</td>
-<<<<<<< HEAD
 																								<td>KSH '.$rows['price'].'</td>
-=======
-																								<td>₹'.$rows['price'].'</td>
->>>>>>> 829e0a04220a2fedf53680041abee23e4dbdde00
-																								
-																								
 																								<td><div class="col-md-3 col-lg-8 m-b-10">
 																								<center><img src="Res_img/dishes/'.$rows['img'].'" class="img-responsive  radius" style="max-height:100px;max-width:150px;" /></center>
 																								</div></td>

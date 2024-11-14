@@ -118,11 +118,7 @@ session_start();
                                                 <div class="content">
                                                     <h5><a href="dishes.php?res_id='.$r['rs_id'].'">'.$r['title'].'</a></h5>
                                                     <div class="product-name">'.$r['slogan'].'</div>
-<<<<<<< HEAD
                                                     <div class="price-btn-block"> <span class="price">KSH '.$r['price'].'</span> <a href="dishes.php?res_id='.$r['rs_id'].'" class="btn theme-btn-dash pull-right">Order Now</a> </div>
-=======
-                                                    <div class="price-btn-block"> <span class="price">₹'.$r['price'].'</span> <a href="dishes.php?res_id='.$r['rs_id'].'" class="btn theme-btn-dash pull-right">Order Now</a> </div>
->>>>>>> 829e0a04220a2fedf53680041abee23e4dbdde00
                                                 </div>
                                                 
                                             </div>
