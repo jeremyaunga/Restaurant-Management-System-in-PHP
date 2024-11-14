@@ -119,7 +119,7 @@ if(isset($_POST['submit']))           //if upload btn is pressed
             <div class="navbar-header">
                     <a class="navbar-brand" href="dashboard.php">
                         
-                        <span><img src="images/food-mania-logo.png" alt="homepage" class="dark-logo" /></span>
+                        <span><img src="images/Delish-Diner-Logo.png" alt="homepage" class="dark-logo" /></span>
                     </a>
                 </div>
                 <div class="navbar-collapse">
@@ -279,7 +279,7 @@ if(isset($_POST['submit']))           //if upload btn is pressed
                         </div>
                     </div>
 
-					<footer class="footer"> © 2021 All rights reserved. </footer>
+					<footer class="footer"> ©2021 All rights reserved. @whalesTech</footer>
 					
                 </div>
              

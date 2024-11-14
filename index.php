@@ -176,6 +176,7 @@ session_start();
                 <div class="row">
                     <div class="col-sm-12 text-center">
                         <p class="pay-info">Cash on Delivery</p>
+                        <p class="pay-info">M-pesa</p>
                     </div>
                 </div>
             </div>

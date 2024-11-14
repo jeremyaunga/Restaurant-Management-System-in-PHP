@@ -157,21 +157,89 @@ else{
 												
                                             </table>
                                         </div>
-                                    </div>
-                                    <div class="payment-option">
-                                        <ul class=" list-unstyled">
-                                            <li>
-                                                <label class="custom-control custom-radio  m-b-20">
-                                                    <input name="mod" id="radioStacked1" checked value="COD" type="radio" class="custom-control-input"> <span class="custom-control-indicator"></span> <span class="custom-control-description">Cash on Delivery</span>
-                                                </label>
-                                            </li>
-                                            <li>
-                                                <label class="custom-control custom-radio  m-b-10">
-                                                    <input name="mod"  type="radio" value="paypal" disabled class="custom-control-input"> <span class="custom-control-indicator"></span> <span class="custom-control-description">Paypal <img src="images/paypal.jpg" alt="" width="90"></span> </label>
-                                            </li>
-                                        </ul>
-                                        <p class="text-xs-center"> <input type="submit" onclick="return confirm('Do you want to confirm the order?');" name="submit"  class="btn btn-outline-success btn-block" value="Order now"> </p>
-                                    </div>
+                                        <div class="payment-option">
+    <ul class="list-unstyled">
+        <li>
+            <label class="custom-control custom-radio m-b-20">
+                <input name="mod" id="radioCOD" checked value="COD" type="radio" class="custom-control-input">
+                <span class="custom-control-indicator"></span>
+                <span class="custom-control-description">Cash on Delivery</span>
+            </label>
+        </li>
+        <li>
+            <label class="custom-control custom-radio m-b-10">
+                <input name="mod" id="radioPaypal" type="radio" value="paypal" disabled class="custom-control-input">
+                <span class="custom-control-indicator"></span>
+                <span class="custom-control-description">Paypal 
+                    <img src="images/paypal.jpg" alt="Paypal" width="90">
+                </span>
+            </label>
+        </li>
+        <li>
+            <label class="custom-control custom-radio m-b-10">
+                <input name="mod" id="radioMpesa" type="radio" value="mpesa" class="custom-control-input">
+                <span class="custom-control-indicator"></span>
+                <span class="custom-control-description">M-Pesa</span>
+            </label>
+            <div id="mpesaForm" style="display: none; margin-top: 10px;">
+                <input type="text" id="mpesaNumber" class="form-control" placeholder="Enter M-Pesa number" maxlength="12">
+            </div>
+        </li>
+    </ul>
+    <p class="text-xs-center">
+        <input type="submit" onclick="return processPayment();" name="submit" class="btn btn-outline-success btn-block" value="Order now">
+    </p>
+</div>
+
+<script>
+    // Show/hide M-Pesa number input based on selected payment method
+    document.getElementById('radioMpesa').addEventListener('change', function () {
+        document.getElementById('mpesaForm').style.display = 'block';
+    });
+    document.getElementById('radioCOD').addEventListener('change', function () {
+        document.getElementById('mpesaForm').style.display = 'none';
+    });
+    document.getElementById('radioPaypal').addEventListener('change', function () {
+        document.getElementById('mpesaForm').style.display = 'none';
+    });
+
+    // Process payment
+    function processPayment() {
+        const selectedPayment = document.querySelector('input[name="mod"]:checked').value;
+
+        if (selectedPayment === 'mpesa') {
+            const mpesaNumber = document.getElementById('mpesaNumber').value;
+            if (!mpesaNumber || !/^\d{10,12}$/.test(mpesaNumber)) {
+                alert('Please enter a valid M-Pesa number.');
+                return false;
+            }
+
+            // Call your backend to initiate the STK Push
+            fetch('/initiate-stk-push', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ phone: mpesaNumber, amount: 1000 }) // Adjust amount as needed
+            })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        alert('Payment initiated. Complete the payment on your phone.');
+                    } else {
+                        alert('Payment failed. Please try again.');
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    alert('Something went wrong. Please try again.');
+                });
+
+            return false; // Prevent form submission
+        } else {
+            return confirm('Do you want to confirm the order?');
+        }
+    }
+</script>
+
 									</form>
                                 </div>
                             </div>
