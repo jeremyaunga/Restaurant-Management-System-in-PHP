@@ -18,33 +18,38 @@ This project is about ordering online food from your favourite restaurants. Anyb
     <b>Login Page</b>
 </p>
 
-<img src="SS/Screenshot (2).png" alt="Main">
+<img src="SS/Screenshot 1.png" alt="Main">
 
 
 <p align="center">
     <b>Register Page</b>
 </p>
 
-<img src="SS/Screenshot (3).png" alt="Main">
+<img src="SS/Screenshot 2.png" alt="Main">
 
 
 <p align="center">
     <b>Dishes Page</b>
 </p>
 
-<img src="SS/Screenshot (4).png" alt="Main">
+<img src="SS/Screenshot 3.png" alt="Main">
 
+<p align="center">
+    <b>User Home Page</b>
+</p>
+
+<img src="SS/Screenshot 5.png" alt="Main">
 
 <p align="center">
     <b>Admin Home Page</b>
 </p>
 
-<img src="SS/Screenshot (5).png" alt="Main">
+<img src="SS/Screenshot 4.png" alt="Main">
 
 
 ## Installation
 
-In XAMPP, just create new database in phpmyadmin and import SQL file which is located in `SQL/` directory.
+In XAMPP, just create new database "online_rest" in phpmyadmin and import SQL file which is located in `SQL/` directory.
 
 ## Admin Page
 
